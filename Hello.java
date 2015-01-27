@@ -1,10 +1,10 @@
 public class Hello{
   
-  public static String sayHello(){
+  public String sayHello(){
     return "Good Morning!";
   }
   
-  public static void main(String[] args){
+  public void main(String[] args){
     
     System.out.println("小明说"+sayHello());
   }
